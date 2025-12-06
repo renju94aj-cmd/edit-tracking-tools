@@ -54,20 +54,21 @@ Includes date picker for daily QC monitoring.
 
 ## Folder Structure
 
-        edit_tracking_tools/
-        ├── init.py
-        ├── edit_tracking_tools.py
-        ├── metadata.txt
-        ├── LICENSE.txt
-        ├── icon.png
-        └── icons/
-        ├── auto_edit_24.png
-        ├── create_edited_24.png
-        ├── mark_selected_24.png
-        ├── null_attr_24.png
-        ├── refresh_stats_24.png
-        ├── remove_null_geom_24.png
-        ├── update_date_24.png
+     edit_tracking_tools/
+     ├── __init__.py
+     ├── edit_tracking_tools.py
+     ├── metadata.txt
+     ├── LICENSE.txt
+     ├── icon.png
+     └── icons/
+          ├── auto_edit_24.png
+          ├── create_edited_24.png
+          ├── mark_selected_24.png
+          ├── null_attr_24.png
+          ├── refresh_stats_24.png
+          ├── remove_null_geom_24.png
+          ├── update_date_24.png
+
 
 ---
 
