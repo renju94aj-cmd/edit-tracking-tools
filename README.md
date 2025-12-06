@@ -92,5 +92,4 @@ Email: renju94aj@gmail.com
 ## License
 This plugin is released under the **MIT License**.
 
-This plugin is released under the **MIT License**.
 
