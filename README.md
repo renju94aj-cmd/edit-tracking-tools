@@ -14,6 +14,20 @@ Designed for GIS teams, production units, survey editors, and daily update workf
   - `edited_dat = <today>`
 - Runs silently when editing starts.
 - Ensures missing edits are not ignored.
+  
+To visually classify edited and not edited features in QGIS:
+
+- Layer → Properties
+
+- Symbology → choose Categorized
+
+- Column = edited
+
+- Click Classify
+
+- Assign different colors for 0 and 1
+
+- This helps in quick QC verification.
 
 ###  Attribute Field Creator
 Creates the two required fields:
