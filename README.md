@@ -23,7 +23,7 @@ To visually classify edited and not edited features in QGIS:
 
 - Column = edited
 
-- Click Classify
+Click Classify
 
 - Assign different colors for 0 and 1
 
