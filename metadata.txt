@@ -1,3 +1,4 @@
+[general]
 name=Edit Tracking Tools
 qgisMinimumVersion=3.22
 qgisMaximumVersion=3.99
@@ -12,23 +13,8 @@ icon=icon.png
 experimental=False
 deprecated=False
 
-about=Smart edit-tracking plugin for QGIS. Automatically records edited features, edit dates, and provides live statistics with QC tools for digitizing workflows.
+about=Smart edit-tracking plugin for QGIS digitizing workflows with automatic edit flags, date tracking, popup reminders, and live QC statistics.
 
 tags=editing,tracking,qc,quality control,production,digitizing,update,auto edit,monitoring,date tracking,attributes
 
-description=Edit Tracking Tools is a lightweight and robust QGIS plugin designed for digitizing teams and GIS production workflows.
-
-It separates edit tracking from normal QGIS editing to avoid performance issues when working with multiple layers.
-
-Main Features:
- - Manual Auto Edit toggle (tracking enabled only when user chooses)
- - Automatic recording of edited features and edit dates
- - Popup reminder when editing previously tracked layers without Auto Edit
- - Create and initialize edited fields
- - Mark selected features as edited
- - Update edit dates using calendar
- - Remove NULL geometries
- - Select NULL in edited attributes
- - Live statistics dock with date filter
-
-Ideal for building updates, parcel digitization, and daily QC monitoring.
+description=Lightweight edit-tracking and QC plugin for QGIS. Provides manual Auto Edit toggle, automatic edited/date recording, popup reminder for previously tracked layers, field creation, selection-based tools, NULL geometry cleanup, and a live statistics dock optimized for multi-layer digitizing without lag.
